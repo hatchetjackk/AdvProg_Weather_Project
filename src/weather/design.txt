@@ -1,0 +1,27 @@
+1. GOAL
+
+The Weather Data program takes user input for temperature, windspeed, and dewpoint then 
+calculates windchill and cloud altitude.
+
+2. METHOD
+
+The program initializes with a GUI that allows the user to determine if they want to use data
+that is manually entered via the keyboard or entered automatically from a file. Each window
+offers the user the opportunity to close the program with a "cancel" button. 
+
+Keyboard entry is a simple window that allows for three inputs that accept integers within a
+specific range. If the user inputs a value above or below that range and clicks the "calculate"
+button, a window is printed to the screen identifying the issue and offering a solution. This
+screen has a "go back" button to return to the first window and a cancel button to close the
+program. Calculating the information will print it to the bottom of the window.
+
+File entry gives the user a file chooser to pick a (.csv?) file with predetermined input that
+will calculate and output the information to a new window.
+
+3. Complete Rewrite
+
+The code needed to be cleaned up. During this time I figured out some clever command combinations to 
+make the code cleaner and easier to read. Computations were split into their own methods, and input 
+fields have been properly addressed to accept correct integer values. Arraylists were added to store 
+data that can then be pushed to WeatherWin for display. The FileChooser will select text files with CSV,
+but this needs to be finished.
