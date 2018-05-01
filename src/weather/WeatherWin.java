@@ -58,5 +58,6 @@ public class WeatherWin extends JFrame {
 	kybdEntryFrame.add(kybdEntryPanel);
 	//kybdEntryFrame.toBack();    // put it behind main window
 	outputArea.setFont(new Font("Arial", Font.BOLD, 12));  // set the font
+	
 	}
 }// end of createKybdOutputWin
