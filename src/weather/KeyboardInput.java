@@ -134,7 +134,7 @@ public class KeyboardInput {
 	
 @SuppressWarnings("serial")
 public class WeatherWin extends JFrame {
-	static JTextArea outputArea = new JTextArea();
+	static JTextArea outputArea = new JTextArea(100,200);
 	
 	static String outputString = "";
 	
